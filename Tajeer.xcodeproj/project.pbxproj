@@ -18,6 +18,9 @@
 		07F9A0262096B25C00EAED66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F9A0242096B25C00EAED66 /* LaunchScreen.storyboard */; };
 		07F9A0312096B25C00EAED66 /* TajeerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9A0302096B25C00EAED66 /* TajeerTests.swift */; };
 		07F9A03C2096B25C00EAED66 /* TajeerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9A03B2096B25C00EAED66 /* TajeerUITests.swift */; };
+		685D14A218C91D54C6F72D38 /* Pods_TajeerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3844BC9DE7EEF42B046A3AD5 /* Pods_TajeerTests.framework */; };
+		9CD0095B66875B04A9CFC96B /* Pods_TajeerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75ADBD130E29510B30AF2C05 /* Pods_TajeerUITests.framework */; };
+		AD5D96596D065425993785B8 /* Pods_Tajeer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BDCD658F3028F261008C549 /* Pods_Tajeer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,15 @@
 		07F9A0372096B25C00EAED66 /* TajeerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TajeerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F9A03B2096B25C00EAED66 /* TajeerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TajeerUITests.swift; sourceTree = "<group>"; };
 		07F9A03D2096B25C00EAED66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDCD658F3028F261008C549 /* Pods_Tajeer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tajeer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A54FBE005795A26D5FE5F79 /* Pods-TajeerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TajeerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TajeerTests/Pods-TajeerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3844BC9DE7EEF42B046A3AD5 /* Pods_TajeerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TajeerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46011BDA470030490003F62E /* Pods-TajeerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TajeerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TajeerTests/Pods-TajeerTests.release.xcconfig"; sourceTree = "<group>"; };
+		75ADBD130E29510B30AF2C05 /* Pods_TajeerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TajeerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80552240EF6C1FCD4D403FDD /* Pods-Tajeer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tajeer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tajeer/Pods-Tajeer.debug.xcconfig"; sourceTree = "<group>"; };
+		96297736972774A1A49E5DBB /* Pods-Tajeer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tajeer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tajeer/Pods-Tajeer.release.xcconfig"; sourceTree = "<group>"; };
+		9F877487A8C73F1A6FF3ED4F /* Pods-TajeerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TajeerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TajeerUITests/Pods-TajeerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E2FE2F76EF38DD6562FABF18 /* Pods-TajeerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TajeerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TajeerUITests/Pods-TajeerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5D96596D065425993785B8 /* Pods_Tajeer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				685D14A218C91D54C6F72D38 /* Pods_TajeerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD0095B66875B04A9CFC96B /* Pods_TajeerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +129,8 @@
 				07F9A02F2096B25C00EAED66 /* TajeerTests */,
 				07F9A03A2096B25C00EAED66 /* TajeerUITests */,
 				07F9A0192096B25A00EAED66 /* Products */,
+				FC7071179A70745298723932 /* Pods */,
+				48B670770116C6091DE7BAD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +178,29 @@
 			path = TajeerUITests;
 			sourceTree = "<group>";
 		};
+		48B670770116C6091DE7BAD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BDCD658F3028F261008C549 /* Pods_Tajeer.framework */,
+				3844BC9DE7EEF42B046A3AD5 /* Pods_TajeerTests.framework */,
+				75ADBD130E29510B30AF2C05 /* Pods_TajeerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC7071179A70745298723932 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80552240EF6C1FCD4D403FDD /* Pods-Tajeer.debug.xcconfig */,
+				96297736972774A1A49E5DBB /* Pods-Tajeer.release.xcconfig */,
+				2A54FBE005795A26D5FE5F79 /* Pods-TajeerTests.debug.xcconfig */,
+				46011BDA470030490003F62E /* Pods-TajeerTests.release.xcconfig */,
+				E2FE2F76EF38DD6562FABF18 /* Pods-TajeerUITests.debug.xcconfig */,
+				9F877487A8C73F1A6FF3ED4F /* Pods-TajeerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07F9A0402096B25C00EAED66 /* Build configuration list for PBXNativeTarget "Tajeer" */;
 			buildPhases = (
+				95093E0A7E0A7389B2574624 /* [CP] Check Pods Manifest.lock */,
 				07F9A0142096B25A00EAED66 /* Sources */,
 				07F9A0152096B25A00EAED66 /* Frameworks */,
 				07F9A0162096B25A00EAED66 /* Resources */,
+				DB5BCD9BC1ABE1EAD051B106 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07F9A0432096B25C00EAED66 /* Build configuration list for PBXNativeTarget "TajeerTests" */;
 			buildPhases = (
+				1986F93F5476581CBBA02A52 /* [CP] Check Pods Manifest.lock */,
 				07F9A0282096B25C00EAED66 /* Sources */,
 				07F9A0292096B25C00EAED66 /* Frameworks */,
 				07F9A02A2096B25C00EAED66 /* Resources */,
@@ -203,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07F9A0462096B25C00EAED66 /* Build configuration list for PBXNativeTarget "TajeerUITests" */;
 			buildPhases = (
+				179396377427AA6A13CA0D47 /* [CP] Check Pods Manifest.lock */,
 				07F9A0332096B25C00EAED66 /* Sources */,
 				07F9A0342096B25C00EAED66 /* Frameworks */,
 				07F9A0352096B25C00EAED66 /* Resources */,
@@ -287,6 +331,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		179396377427AA6A13CA0D47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TajeerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1986F93F5476581CBBA02A52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TajeerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95093E0A7E0A7389B2574624 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tajeer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB5BCD9BC1ABE1EAD051B106 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tajeer/Pods-Tajeer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tajeer/Pods-Tajeer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07F9A0142096B25A00EAED66 /* Sources */ = {
@@ -468,15 +591,13 @@
 		};
 		07F9A0412096B25C00EAED66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80552240EF6C1FCD4D403FDD /* Pods-Tajeer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98Y7S9MWGY;
 				INFOPLIST_FILE = Tajeer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = omarhammad.Tajeer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -486,15 +607,13 @@
 		};
 		07F9A0422096B25C00EAED66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96297736972774A1A49E5DBB /* Pods-Tajeer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98Y7S9MWGY;
 				INFOPLIST_FILE = Tajeer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = omarhammad.Tajeer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -504,17 +623,14 @@
 		};
 		07F9A0442096B25C00EAED66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A54FBE005795A26D5FE5F79 /* Pods-TajeerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98Y7S9MWGY;
 				INFOPLIST_FILE = TajeerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = omarhammad.TajeerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -525,17 +641,14 @@
 		};
 		07F9A0452096B25C00EAED66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46011BDA470030490003F62E /* Pods-TajeerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98Y7S9MWGY;
 				INFOPLIST_FILE = TajeerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = omarhammad.TajeerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -546,16 +659,13 @@
 		};
 		07F9A0472096B25C00EAED66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FE2F76EF38DD6562FABF18 /* Pods-TajeerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98Y7S9MWGY;
 				INFOPLIST_FILE = TajeerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = omarhammad.TajeerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -566,16 +676,13 @@
 		};
 		07F9A0482096B25C00EAED66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F877487A8C73F1A6FF3ED4F /* Pods-TajeerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98Y7S9MWGY;
 				INFOPLIST_FILE = TajeerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = omarhammad.TajeerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
